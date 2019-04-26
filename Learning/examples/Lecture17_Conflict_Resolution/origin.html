@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Cascade of CSS</title>
+<link rel="stylesheet" href="external.css">
+<style>
+
+p {
+  color: maroon;
+}
+
+</style>
+</head>
+<body>
+<h1>Origin Example</h1>
+<p>The rule is simple: last declaration wins.</p>
+<p style="color: black;">If there is no conflict, declarations merge into one rule.</p>
+</body>
+</html>
+
+<!--  simple rule__: the last declaration wins -->
+<!--  declaration Merge__: follows the simple rule-->
+<!-- Inheritance child of body tab will Inheritant that property  -->
+<!-- specificity: Most specific sector combination wins  1,style specific 2. ID 3.Class pseudoclass attribute 4.number of elements-->
