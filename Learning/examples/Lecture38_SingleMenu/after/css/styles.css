@@ -154,7 +154,7 @@ body {
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
-.category-tile { 
+.category-tile {
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
@@ -181,7 +181,11 @@ body {
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
+
 /* END MENU CATEGORIES PAGE */
+
+
+
 
 /* SINGLE CATEGORY PAGE */
 .menu-item-tile {
@@ -201,7 +205,7 @@ body {
 }
 .menu-item-photo {
   position: relative;
-  border: 2px solid #3F0C1F; 
+  border: 2px solid #3F0C1F;
   overflow: hidden;
   padding: 0;
   margin-right: -15px;
@@ -228,6 +232,11 @@ h3.menu-item-title {
   font-style: italic;
 }
 /* END SINGLE CATEGORY PAGE */
+
+
+
+
+
 
 
 /********** Large devices only **********/
@@ -354,7 +363,7 @@ h3.menu-item-title {
     font-size: 6vw;
   }
   /* End Header */
-  
+
   /* Home page */
   #menu-tile, #specials-tile {
     width: 280px;
@@ -370,6 +379,3 @@ h3.menu-item-title {
     width: 100%;
   }
 }
-
-
-
