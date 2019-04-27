@@ -92,6 +92,7 @@ body {
 @media (min-width: 992px) and (max-width: 1199px) {
   /* Header */
   #logo-img {
+    /* changing the restaurant img (smaller)  */
     background: url('../images/restaurant-logo_medium.png') no-repeat;
     width: 100px;
     height: 100px;
@@ -109,11 +110,14 @@ body {
 @media (max-width: 767px) {
   /* Header */
   .navbar-brand {
+    /* decreaing the padding */
     padding-top: 10px;
+    /* concrate height */
     height: 80px;
   }
   .navbar-brand h1 { /* Restaurant name */
     padding-top: 10px;
+    /*  */
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
   .navbar-brand p { /* Kosher cert */
