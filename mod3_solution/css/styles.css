@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #fce29e;
+    background-color: #000000;
 }
 
 .navbar-collapse {
@@ -45,7 +45,7 @@ body {
 }
 
 #nav-list {
-    background-color: #e4af34;
+    background-color: #ffff00;
 }
 
 #nav-list a {
@@ -57,7 +57,7 @@ body {
 
 #nav-list a:hover {
     color: #202020;
-    background-color: #fce29e;
+    background-color: #0000ff;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -91,7 +91,7 @@ body {
 #chicken-tile, #beef-tile, #sushi-tile {
     width: 100%;
     padding: 20px;
-    background-color: #99e569;
+    background-color: #00ff00;
     margin-bottom: 60px;
     box-shadow: 0 0 80px #18580b;
 }
