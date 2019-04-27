@@ -154,7 +154,7 @@ body {
 /* END HOME PAGE */
 
 /* MENU CATEGORIES PAGE */
-.category-tile { 
+.category-tile {
   position: relative;
   border: 2px solid #3F0C1F;
   overflow: hidden;
@@ -178,6 +178,7 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
+/* next slibing  */
 #menu-categories-title + div {
   margin-bottom: 50px;
 }
@@ -297,13 +298,14 @@ body {
     font-size: 6vw;
   }
   /* End Header */
-  
+
   /* Home page */
   #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
 
+/* this is copied from the boostrap  */
   .col-xxs-12 {
     position: relative;
     min-height: 1px;
@@ -313,6 +315,3 @@ body {
     width: 100%;
   }
 }
-
-
-
