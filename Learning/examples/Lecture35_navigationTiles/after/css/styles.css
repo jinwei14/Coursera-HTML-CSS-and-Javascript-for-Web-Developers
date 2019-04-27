@@ -101,6 +101,7 @@ body {
   box-shadow: 0 1px 5px 1px #cccccc;
 }
 
+/* placeit.io ? */
 #menu-tile {
   background: url('../images/menu-tile.jpg') no-repeat;
   background-position: center;
@@ -229,11 +230,10 @@ body {
     font-size: 6vw;
   }
   /* End Header */
-  
+
   /* Home page */
   #menu-tile, #specials-tile {
     width: 280px;
     margin: 0 auto 15px;
   }
 }
-
