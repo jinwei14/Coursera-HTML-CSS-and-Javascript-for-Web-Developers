@@ -9,6 +9,8 @@ window obj
 try this in the console:  window.document
 document.getElementById("title")
 
+get the element in the HTML
+return back to the front end
 
 
 */
@@ -20,16 +22,18 @@ function sayHello () {
   var name =
    document.getElementById("name").value;
    var message = "<h2>Hello " + name + "!</h2>";
-
+ // this will print  the hello name directly
   // document
   //   .getElementById("content")
   //   .textContent = message;
 
+// this will interprete as html
   document
     .getElementById("content")
     .innerHTML = message;
 
   if (name === "student") {
+    // also can use getElementById
     var title =
       document
         .querySelector("#title")
