@@ -39,6 +39,7 @@ function sayHello () {
         .querySelector("#title")
         .textContent;
     title += " & Lovin' it!";
+    // first h1 element
     document
         .querySelector("h1")
         .textContent = title;
