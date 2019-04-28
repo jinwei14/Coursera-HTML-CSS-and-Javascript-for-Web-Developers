@@ -1,6 +1,20 @@
-// DOM manipulation
-// console.log(document.getElementById("title"));
-// console.log(document instanceof HTMLDocument);
+// DOM manipulation (document object Module)
+
+/*
+// NOTE:
+document object represents the entire HTML document, the document object model
+
+window obj
+
+try this in the console:  window.document
+document.getElementById("title")
+
+
+
+*/
+
+console.log(document.getElementById("title"));
+console.log(document instanceof HTMLDocument);
 
 function sayHello () {
   var name =
@@ -16,7 +30,7 @@ function sayHello () {
     .innerHTML = message;
 
   if (name === "student") {
-    var title = 
+    var title =
       document
         .querySelector("#title")
         .textContent;
