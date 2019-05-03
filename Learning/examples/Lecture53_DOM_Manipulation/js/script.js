@@ -16,6 +16,10 @@ return back to the front end
 */
 
 console.log(document.getElementById("title"));
+console.log(document.getElementById("name").value
+            + " Coursera!");
+console.log(document.querySelector("#name").value
+            + " Coursera!");
 console.log(document instanceof HTMLDocument);
 
 function sayHello () {

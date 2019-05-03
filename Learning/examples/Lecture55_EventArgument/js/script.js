@@ -1,7 +1,7 @@
 // Event handling
 document.addEventListener("DOMContentLoaded",
   function (event) {
-    
+    console.log("test");
     function sayHello (event) {
       console.log(event);
 
@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded",
         .innerHTML = message;
 
       if (name === "student") {
-        var title = 
+        var title =
           document
             .querySelector("#title")
             .textContent;
@@ -47,7 +47,3 @@ document.addEventListener("DOMContentLoaded",
 
 // document.querySelector("button")
 //   .onclick = sayHello;
-
-
-
-
