@@ -19,6 +19,7 @@ $(function () { // Same as document.addEventListener("DOMContentLoaded"...
   });
 });
 
+// immediate invoke function  (gloable is window)
 (function (global) {
 
 var dc = {};
@@ -31,6 +32,7 @@ var insertHtml = function (selector, html) {
   targetElem.innerHTML = html;
 };
 
+// ajaxload.info free
 // Show loading icon inside element identified by 'selector'.
 var showLoading = function (selector) {
   var html = "<div class='text-center'>";
