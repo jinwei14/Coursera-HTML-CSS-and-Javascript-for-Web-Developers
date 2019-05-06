@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to GitHub Pages(this is also the repo to the coursera course HTML/CSS/JS)
 
 You can use the [editor on GitHub](https://github.com/jinwei14/test-site/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
