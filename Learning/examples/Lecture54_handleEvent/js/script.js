@@ -34,6 +34,5 @@ document.addEventListener("DOMContentLoaded",
     // //we can use the object that we select
     // document.querySelector("button")
     //   .onclick = sayHello;
-
   }
 );
